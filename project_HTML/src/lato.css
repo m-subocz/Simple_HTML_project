@@ -1,0 +1,99 @@
+body {
+
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background: #eccc68;
+
+}
+
+h1 {
+
+  font-size: 120px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin: 0;
+  background: url(images/summer.jpg) 50% 50%;
+  background-size: cover;
+  -webkit-text-fill-color:transparent;
+  -webkit-background-clip:text;
+
+}
+
+
+.Mcon {
+
+  position: relative;
+  width: 100%;
+  height: 385px;
+
+}
+
+.con {
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 1s ease;
+
+
+}
+
+.con:hover {
+
+  transform: rotateY(180deg);
+
+}
+
+}
+.front {
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+
+}
+
+.back {
+
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-image: linear-gradient(#34e7e4 , #686de0);
+  transform: rotateY(180deg);
+
+
+}
+
+.latot {
+
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin: 0;
+  text-align: center;
+
+}
+
+a {
+
+  text-decoration: none;
+  color: white;
+
+}
